@@ -1,0 +1,37 @@
+<%- include('../../partials/header.ejs') %>
+
+<body>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
+<%- include('../../partials/navbar.ejs') %>
+      <div class="main-sidebar sidebar-style-2">
+      <%- include('../../partials/sidebar.ejs') %>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-header">
+            <h1>Booking</h1>
+          </div>
+          <div class="container-fluid">
+
+            <!-- Page Heading -->
+        
+  
+            <!-- DataTales Example -->
+            
+          <%- include('table_booking.ejs') %>
+       
+          <!-- /.container-fluid -->
+  
+          <div class="section-body">
+          </div>
+        </section>
+      </div>
+      <%- include('../../partials/footer.ejs') %>
+    </div>
+  </div>
+
+ <%- include('../../partials/js.ejs') %>
