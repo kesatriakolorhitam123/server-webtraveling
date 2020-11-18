@@ -12,7 +12,7 @@ const flash = require('connect-flash');
 // import mongoose
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/db_webtraveling', {
+mongoose.connect('mongodb+srv://kesatriakolorhitam:raninuryati@cluster0.k2cb0.mongodb.net/db_webtraveling?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 useCreateIndex: true,
